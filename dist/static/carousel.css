@@ -1,0 +1,22 @@
+/*重置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content: ;}
+abbr,acronym{border:0;}
+.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix {zoom:1;}
+/*旋转木马必要样式*/
+.poster-main{ position:relative;width:800px;height:400px;left:0px;top:50px;text-align: center}
+/* .poster-main a,.poster-main img{display:block;} */
+.poster-main .poster-list{width:800px;height:270px;text-align: center}
+.poster-main .poster-list .poster-item{ position:absolute;left:0;top:0;}
+.poster-main .poster-btn{ position:absolute;top:185px;width:100px;height:270px; z-index:10; cursor:pointer;  opacity:0.8}
+.poster-main .poster-prev-btn{left:0; text-align: left;}
+/* .poster-main .poster-next-btn{right:0; background: url(btn_r.png) no-repeat center center;} */
+/* .poster-btn  */
+.poster-main .poster-next-btn{right:0; text-align: right;}
